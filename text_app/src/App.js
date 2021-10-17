@@ -4,18 +4,18 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <button>Create Flashcards</button>
-        <button>Flashcards</button>
-        <button>Sign In</button>
+        <button class="create-flashcards">Create Flashcards</button>
+        <button class="flashcards">Flashcards</button>
+        <button class="sign-in">Sign In</button>
       </div>
       <div className="textboxContainer">
-        <textarea name="textarea" rows="10" cols="60">Type in your text input</textarea>
+      <textarea name="textarea" rows="10" cols="60">Type in your text input</textarea>
       </div>
       <div className="inputsContainer">
         <div className="dropdowns">
           <div className="dropdownGroup">
             <label>Difficulty</label>
-            <select id = "options">
+            <select>
               <option>Easy</option>
               <option>Medium</option>
               <option>Hard</option>
@@ -23,14 +23,14 @@ function App() {
           </div>
           <div className="dropdownGroup">
             <label id="educationLabel">Education</label>
-            <select id = "options">
+            <select>
               <option>High School</option>
               <option>College</option>
             </select>
           </div>
           <div className = "dropdownGroup">
             <label id = "numQuestions">Number of Questions</label>
-              <select id = "options">  
+              <select>  
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -45,7 +45,7 @@ function App() {
           </div>
         </div>
         <div className="buttonContainer">
-          <button>Create Cards</button>
+          <button class="create-cards">Create Cards</button>
         </div>
       </div>
     </div>

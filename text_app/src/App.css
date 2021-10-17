@@ -8,7 +8,6 @@
 .header{
   margin-bottom: 5px;
   font-size: 50px;
-  margin-right: 10px;
 }
 
 .textboxContainer{
@@ -18,24 +17,53 @@
 
 }
 
-/* .inputsContainer{
+.inputsContainer{
   margin-top: 100px;
   font-size: 50px;
-} */
-
-#textInput{
-  width: 300px;
-  height: 300px;
 }
 
-.dropdownGroup{
+.header {
+  margin-top: 2vh;
+  font-size: 50px;
+}
+.create-flashcards {
+  margin-left: 15vw;
+
+}
+
+.sign-in {
+  margin-right: 15vw;
+}
+
+.flashcards {
+  margin-left: 25vw;
+  margin-right:25vw;
+}
+
+.buttonContainer {
+  text-align: center;
+}
+
+.create-cards {
+  text-align: center;  
+  width: 80px;  
+  height: 50px;  
+
+}
+
+.header{
+  margin-bottom: 5px;
   font-size: 50px;
 }
 
-/* #numQuestions{
-  font-size: 100px;
-} */
+.textboxContainer{
 
-#options{
-  font-size : 30px;
+  margin-top: 100px;
+  font-size: 50px;
+
+}
+
+.inputsContainer{
+  margin-top: 100px;
+  font-size: 50px;
 }
